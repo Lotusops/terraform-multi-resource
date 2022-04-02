@@ -9,3 +9,7 @@ variable "aws_secret_key" {
 variable "ssh_public_key" {
   type = string
 }
+
+variable "vpc_id" {
+  type = string
+}
